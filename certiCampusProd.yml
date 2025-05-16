@@ -1,8 +1,7 @@
-spring:
-  datasource:
-    username: cnieves
-    hikari:
-      maximum-pool-size: 5
-      connection-timeout: 20000
-    url: jdbc:postgresql://localhost:5432/certiCampus
-    password: 5er71c4mpu5
+db:  
+  username: cnieves
+  maximum-pool-size: 5
+  connection-timeout: 20000
+  url: jdbc:postgresql://localhost:5432/certiCampus
+  password: 5er71c4mpu5
+  driverClassName: org.postgresql.Driver
