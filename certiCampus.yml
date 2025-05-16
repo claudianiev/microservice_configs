@@ -5,3 +5,14 @@ db:
   url: jdbc:postgresql://localhost:5432/certiCampus
   password: cnieves83
   driverClassName: org.postgresql.Driver
+
+spring:
+  datasource:
+    username: ${db.username}
+    password: ${db.password}
+    url: ${db.url}
+    driver-class-name: ${db.driverClassName}
+    hikari:
+      maximum-pool-size: ${db.maximum-pool-size}
+      connection-timeout: ${db.connection-timeout}
+
