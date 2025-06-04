@@ -1,7 +1,6 @@
 db:
   maximum-pool-size: 5
-  connection-timeout: 20000
-  url: jdbc:postgresql://localhost:5432/certiCampus
+  connection-timeout: 20000  
   driverClassName: org.postgresql.Driver
 
 spring:
