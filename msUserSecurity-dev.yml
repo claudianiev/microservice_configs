@@ -6,8 +6,8 @@ db:
 
 spring:
   datasource:
-    username: ${spring.application.name}
-    password: ${spring.datasource.password}
+    username: ${db.username}
+    password: ${db.password}
     url: ${db.url}
     driver-class-name: ${db.driverClassName}
     hikari:
