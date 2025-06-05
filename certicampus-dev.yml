@@ -1,5 +1,9 @@
-db: 
-  url: "jdbc:postgresql://localhost:5432/certiCampus"
-  driver-class-name: "org.postgresql.Driver"
-  maximum-pool-size: 5
-  connection-timeout: "20000"
+spring:
+  datasource:
+    username: ${db.username}
+    password: ${db.password}
+    url: ${db.url}
+    driver-class-name: ${db.driver-class-name}
+    hikari:
+      maximum-pool-size: ${db.maximum-pool-size}
+      connection-timeout: ${db.connection-timeout}
