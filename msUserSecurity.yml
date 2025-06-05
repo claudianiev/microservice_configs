@@ -3,7 +3,7 @@ spring:
     username: ${db.username}
     password: ${db.password}
     url: ${db.url}
-    driver-class-name: ${db.driver-class-name}
+    driver-class-name: 'org.postgresql.Driver'
     hikari:
       maximum-pool-size: ${db.maximum-pool-size}
       connection-timeout: ${db.connection-timeout}
