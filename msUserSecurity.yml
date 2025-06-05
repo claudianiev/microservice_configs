@@ -1,4 +1,5 @@
 db:  
+  username: ${db.username}
   password: ${db.password}
   maximum-pool-size: 5
   connection-timeout: 20000
