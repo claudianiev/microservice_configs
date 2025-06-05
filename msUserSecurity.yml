@@ -1,5 +1,4 @@
-db:
-  username: db.username
+db:  
   password: "${db.password}"
   maximum-pool-size: 5
   connection-timeout: 20000
