@@ -5,5 +5,5 @@ spring:
     url: ${db.url}
     driver-class-name: 'org.postgresql.Driver'
     hikari:
-      maximum-pool-size: ${db.maximum-pool-size}
+      maximum-pool-size: 5
       connection-timeout: 20000
