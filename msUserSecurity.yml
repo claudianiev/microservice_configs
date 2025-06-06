@@ -1,7 +1,7 @@
 db:  
-  username: 'cnieves'
-  password: 'cnieves83'
+  username: cnieves
+  password: cnieves83
   maximum-pool-size: 5
   connection-timeout: 20000
-  url: 'jdbc:postgresql://localhost:5432/certiCampus'
+  url: jdbc:postgresql://localhost:5432/certiCampus
   driver-class-name: org.postgresql.Driver
